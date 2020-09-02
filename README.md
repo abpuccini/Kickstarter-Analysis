@@ -8,7 +8,7 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 
 ## Analysis
 
-Here is the data sheets and figures to conduct the Kickstarter analysis. 
+Here is the data sheets and figures to conduct the Kickstarter analysis. [download this](KickstarterTableAnalysis.xlsx)
 
 ![KickstarterTableAnalysis](Images/KickstarterTableAnalysis.png)
 
