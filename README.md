@@ -1,14 +1,16 @@
-# Kickstarter-Analysis
+# Kickstarter Project Analysis
 
 ## Background
 
 Over $2 billion has been raised using the massively successful crowdfunding service, Kickstarter, but not every project has found success. Of the more than 300,000 projects launched on Kickstarter, only a third have made it through the funding process with a positive outcome.
 
-Getting funded on Kickstarter requires meeting or exceeding the project's initial goal, so many organizations spend months looking through past projects in an attempt to discover some trick for finding success. The analysis will be based on a database of 4,000 past projects in order to uncover any hidden trends.
+Getting funded on Kickstarter requires meeting or exceeding the project`s initial goal, so many organizations spend months looking through past projects in an attempt to discover some trick for finding success. The analysis will be based on a database of 4,000 past projects in order to uncover any hidden trends.
 
 ## Analysis
 
-Here is the data sheets and figures to conduct the Kickstarter analysis. 
+Here is the data sheets and figures to conduct the Kickstarter analysis.
+
+[Click here to Download Analysis Table](KickstarterTableAnalysis.xlsx)
 
 ![KickstarterTableAnalysis](Images/KickstarterTableAnalysis.png)
 
@@ -40,9 +42,9 @@ Regarding State by Month from all those years, the highest number of successful 
 
 # Predict Trend by Category
 
-Creating a pivot table with a column of 'state', row of 'year', value based on the count of 'state' and filters based on 'Parent-Category' 
+Creating a pivot table with a column of `state`, row of `year`, value based on the count of `state` and filters based on `Parent-Category` 
 
-Also, creating a line chart linked with the pivot table to analyze trend of successful and failure by filtering 'Parent-Category'.
+Also, creating a line chart linked with the pivot table to analyze trend of successful and failure by filtering `Parent-Category`.
 
 This table and graph will conduct the trend of success and fail for each category from 2009 to 2017.
 
@@ -50,9 +52,9 @@ This table and graph will conduct the trend of success and fail for each categor
 
 # Analysis of state by Parent and Sub category for each country
 
-Creating a pivot table with a column of 'state', row of 'country', value based on the count of 'state' and filters based on 'Parent-Category' and 'Sub-category'.
+Creating a pivot table with a column of `state`, row of `country`, value based on the count of `state` and filters based on `Parent-Category` and `Sub-category`.
 
-Also, creating a stacked chart linked with the pivot table to analyze which campaigns in which country tend to be more successful or failed by filtering 'Parent-Category' and 'Sub-category'.
+Also, creating a stacked chart linked with the pivot table to analyze which campaigns in which country tend to be more successful or failed by filtering `Parent-Category` and `Sub-category`.
 
 This table and graph will conduct which campaign will be more interesting compared to others in each country.
 
@@ -60,9 +62,9 @@ This table and graph will conduct which campaign will be more interesting compar
 
 # Analysis of backers’ interests toward the campaign category
 
-Creating a pivot table with a row of 'Sub-category', value based on the sum of 'backer' and filters based on 'Parent-Category' and 'year'.
+Creating a pivot table with a row of `Sub-category`, value based on the sum of `backer` and filters based on `Parent-Category` and `year`.
 
-Also, creating a column chart linked with the pivot table to analyze which campaigns tend to be more interesting for the backers by filtering 'Parent-Category' and 'year.
+Also, creating a column chart linked with the pivot table to analyze which campaigns tend to be more interesting for the backers by filtering `Parent-Category` and `year.
 
 This table and graph will conduct which campaign (sub-category) will draw more backer’s attention than the others.
 
