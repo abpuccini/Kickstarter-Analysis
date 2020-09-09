@@ -20,7 +20,7 @@ Regarding State per Category Chart, the **majority** of the campaigns is in the 
 
 ![StateperSubCategory](Images/StateSubCategory.png)
 
-Regarding State per Sub-Category chart, **plays** is the most successful sub-category campaign compared to others.
+Regarding State per Sub-Category chart, **plays** is **the most successful** sub-category campaign compared to others.
 
 ![StateperMonth](Images/StateTimeCreation.png)
 
@@ -43,27 +43,27 @@ Creating a pivot table with a column of *state*, row of *year*, value based on t
 
 ![CategoryTrend](Images/TrendCategory.png)
 
-It seems the trends of success and failure climb up from 2009 to the highest point in 2015 and starts to drop in 2016. 
+It seems the trends of success and failure **climb up from 2009 to the highest point in 2015 and start to drop in 2016**. 
 
 ### Analysis of state by Parent and Sub category for each country
 
-Creating a pivot table with a column of *state*, row of *country*, value based on the count of *state* and filters based on *Parent-Category* and *Sub-category*.
+Creating a pivot table with a column of *state*, row of *country*, value based on the count of *state* and filters based on *Parent-Category* and *Sub-category*. Also, creating a stacked chart linked with the pivot table to analyze which campaigns in which country tend to be more successful or failed by filtering *Parent-Category* and *Sub-category*.
 
-Also, creating a stacked chart linked with the pivot table to analyze which campaigns in which country tend to be more successful or failed by filtering *Parent-Category* and *Sub-category*.
-
-This table and graph will conduct which campaign will be more interesting compared to others in each country.
+    This table and graph will conduct which campaign will be more interesting compared to others in each country.
 
 ![byCountry](Images/StateCountry.png)
 
+The highest chance of success of each project falls into **the U.S.** However, there are more projects created in the U.S. compared to other countries.
+
 ### Analysis of backers’ interests toward the campaign category
 
-Creating a pivot table with a row of *Sub-category*, value based on the sum of *backer* and filters based on *Parent-Category*, *year* and *state*.
+Creating a pivot table with a row of *Sub-category*, value based on the sum of *backer* and filters based on *Parent-Category*, *year* and *state* Also, creating a column chart linked with the pivot table to analyze which campaigns tend to be more interesting for the backers by filtering *Parent-Category* and *year.
 
-Also, creating a column chart linked with the pivot table to analyze which campaigns tend to be more interesting for the backers by filtering *Parent-Category* and *year.
-
-This table and graph will conduct which campaign (sub-category) will draw more backer’s attention than the others in order to be successful.
+    This table and graph will conduct which campaign (sub-category) will draw more backer’s attention than the others in order to be successful.
 
 ![BackerInterest](Images/SubCatBacker.png)
+
+**Hardware** which is in Technology parent-category is the most interesting project for backers to support it.
 
 - - - 
 
