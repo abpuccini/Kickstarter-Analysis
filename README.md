@@ -65,8 +65,6 @@ This table and graph will conduct which campaign (sub-category) will draw more b
 
 **Hardware** which is in Technology parent-category is the most interesting project for backers to support it.
 
-- - - 
-
 ## Additional Analysis
 
 **Table I: Outcome based on Goal**
