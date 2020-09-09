@@ -16,34 +16,34 @@ The conclusions will be conducted based on the Kickstarter campaign data collect
 
 ![StateperCategory](Images/StateCategory.png)
 
-Regarding State per Category Chart, the majority of the campaigns is in the theater business. Also, the highest number of success is in the theater business as well.
+Regarding State per Category Chart, the **majority** of the campaigns is in the **theater** business. Also, the **highest number of success** is in the **theater** business as well.
 
 ![StateperSubCategory](Images/StateSubCategory.png)
 
-Regarding State per Sub-Category chart, “plays” is the most successful sub-category campaign compared to others.
+Regarding State per Sub-Category chart, **plays** is the most successful sub-category campaign compared to others.
 
 ![StateperMonth](Images/StateTimeCreation.png)
 
-Regarding State by Month from all those years, the highest number of successful campaigns takes place in May.
+Regarding State by Month from all those years, the highest number of successful campaigns takes place in **May**.
 
 ## Limitations
 
-1. There are approximately 4,000 projects in the dataset which might be inadequate to represent all the Kickstarter projects which is 300,000 projects. That might mislead the conclusions of this analysis. The more accurate analysis might require a larger size of dataset. 
-2.	In 2009 and 2017, the dataset does not contain a full year data. That could lead to misinterpret trends or forecasting.
-3.	The goal, created date and ended date of each campaign are different which makes it difficult to standardize the analysis of the entire dataset. That might lead to a generalization.  
-4.	The number of projects launched each year is different. In order to have a more accurate analysis, the dataset might be required to exclude any year that has a significant difference of launched project number.
+- There are approximately 4,000 projects in the dataset which might be inadequate to represent all the Kickstarter projects which is 300,000 projects. That might mislead the conclusions of this analysis. The more accurate analysis might require a larger size of dataset. 
+- In 2009 and 2017, the dataset does not contain a full year data. That could lead to misinterpret trends or forecasting.
+- The goal, created date and ended date of each campaign are different which makes it difficult to standardize the analysis of the entire dataset. That might lead to a generalization.  
+- The number of projects launched each year is different. In order to have a more accurate analysis, the dataset might be required to exclude any year that has a significant difference of launched project number.
 
 ## Other tables and graphs
 
 ### Predict Trend by Category
 
-Creating a pivot table with a column of *state*, row of *year*, value based on the count of *state* and filters based on *Parent-Category*. 
+Creating a pivot table with a column of *state*, row of *year*, value based on the count of *state* and filters based on *Parent-Category*. Also, creating a line chart linked with the pivot table to analyze trend of successful and failure by filtering *Parent-Category*.
 
-Also, creating a line chart linked with the pivot table to analyze trend of successful and failure by filtering *Parent-Category*.
-
-This table and graph will conduct the trend of success and fail for each category from 2009 to 2017.
+    This table and graph will conduct the trend of success and fail for each category from 2009 to 2017.
 
 ![CategoryTrend](Images/TrendCategory.png)
+
+It seems the trends of success and failure climb up from 2009 to the highest point in 2015 and starts to drop in 2016. 
 
 ### Analysis of state by Parent and Sub category for each country
 
