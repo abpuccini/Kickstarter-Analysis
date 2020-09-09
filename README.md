@@ -6,7 +6,7 @@ Kickstarter, founded in April 2009, is a platform that gives an opportunity for 
 
 ## Analysis
 
-Here is the data sheets and figures to conduct the Kickstarter analysis. [Click here to Download Analysis Table](KickstarterTableAnalysis.xlsx)
+Here is the data sheets and figures to conduct the Kickstarter analysis. [Click here to Download Analysis Table](https://github.com/abpuccini/Kickstarter-Analysis/raw/master/KickstarterTableAnalysis.xlsx)
 
 ![KickstarterTableAnalysis](Images/KickstarterTableAnalysis.png)
 
@@ -35,7 +35,7 @@ Regarding State by Month from all those years, the highest number of successful 
 
 ## Other tables and graphs
 
-# Predict Trend by Category
+### Predict Trend by Category
 
 Creating a pivot table with a column of *state*, row of *year*, value based on the count of *state* and filters based on *Parent-Category* 
 
@@ -45,7 +45,7 @@ This table and graph will conduct the trend of success and fail for each categor
 
 ![CategoryTrend](Images/TrendCategory.png)
 
-# Analysis of state by Parent and Sub category for each country
+### Analysis of state by Parent and Sub category for each country
 
 Creating a pivot table with a column of *state*, row of *country*, value based on the count of *state* and filters based on *Parent-Category* and *Sub-category*.
 
@@ -55,7 +55,7 @@ This table and graph will conduct which campaign will be more interesting compar
 
 ![byCountry](Images/StateCountry.png)
 
-# Analysis of backers’ interests toward the campaign category
+### Analysis of backers’ interests toward the campaign category
 
 Creating a pivot table with a row of *Sub-category*, value based on the sum of *backer* and filters based on *Parent-Category*, *year* and *state*.
 
