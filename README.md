@@ -39,7 +39,7 @@ Regarding State by Month from all those years, the highest number of successful 
 
 Creating a pivot table with a column of *state*, row of *year*, value based on the count of *state* and filters based on *Parent-Category*. Also, creating a line chart linked with the pivot table to analyze trend of successful and failure by filtering *Parent-Category*.
 
-    This table and graph will conduct the trend of success and fail for each category from 2009 to 2017.
+This table and graph will conduct the trend of success and fail for each category from 2009 to 2017.
 
 ![CategoryTrend](Images/TrendCategory.png)
 
@@ -49,7 +49,7 @@ It seems the trends of success and failure **climb up from 2009 to the highest p
 
 Creating a pivot table with a column of *state*, row of *country*, value based on the count of *state* and filters based on *Parent-Category* and *Sub-category*. Also, creating a stacked chart linked with the pivot table to analyze which campaigns in which country tend to be more successful or failed by filtering *Parent-Category* and *Sub-category*.
 
-    This table and graph will conduct which campaign will be more interesting compared to others in each country.
+This table and graph will conduct which campaign will be more interesting compared to others in each country.
 
 ![byCountry](Images/StateCountry.png)
 
@@ -59,7 +59,7 @@ The highest chance of success of each project falls into **the U.S.** However, t
 
 Creating a pivot table with a row of *Sub-category*, value based on the sum of *backer* and filters based on *Parent-Category*, *year* and *state* Also, creating a column chart linked with the pivot table to analyze which campaigns tend to be more interesting for the backers by filtering *Parent-Category* and *year.
 
-    This table and graph will conduct which campaign (sub-category) will draw more backer’s attention than the others in order to be successful.
+This table and graph will conduct which campaign (sub-category) will draw more backer’s attention than the others in order to be successful.
 
 ![BackerInterest](Images/SubCatBacker.png)
 
