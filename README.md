@@ -37,7 +37,7 @@ Regarding State by Month from all those years, the highest number of successful 
 
 ### Predict Trend by Category
 
-Creating a pivot table with a column of *state*, row of *year*, value based on the count of *state* and filters based on *Parent-Category* 
+Creating a pivot table with a column of *state*, row of *year*, value based on the count of *state* and filters based on *Parent-Category*. 
 
 Also, creating a line chart linked with the pivot table to analyze trend of successful and failure by filtering *Parent-Category*.
 
@@ -84,3 +84,27 @@ This table and graph will conduct which campaign (sub-category) will draw more b
 Regarding Table I and Graph I, the data indicates that there is a relationship between the goal and chance of success or failed. If the goal amount is low, it is likely that the project will reach the goal and succeed. On the other hand, if the goal amount is high, the chance of success will decline and the chance of failure will increase. Also, the average donation per backer is related to a chance of success as well. Regarding Graph II, it implies that the lower amount of pledge for each backer, the higher chance of success will be. These emphasize that the project’s goal amount is a significant variability to reach the positive outcome on Kickstarter.
 
 ## Statistical Analysis
+
+**Table II: Staistical Table**
+
+![StatTable](Images/StatisticTable.png)
+
+**Assumption I** Does mean or median give meaningful analysis?
+
+    Regarding Table II, variance and standard deviation of each state is large which means the data in the dataset is far from mean and median. Also, it means that the data set has a high number of outliers. Therefore, mean and median for this dataset might not be an efficient indicator for analysis. However, the dataset could be used for an analysis if the outlier data is excluded from the dataset.
+
+**Assumption II** Is there any variability that relates to a chance of success or failure?
+
+    Even though there are similar projects in terms of their launch time, goal, parent-category and sub-category, one project was successful, another one was not. There are other variabilities that could affect the outcome of the project. 
+
+    One of the variabilities could be the content or product of the project which relates to what people are interested in at that period of time. Therefore, the number of backers and how much they pledge depend on their interests at the time. Also, the backers have no limitation of which country they can pledge. In the other words, the backers can pledge domestically or internationally. If a project fits with the global trend, the successful rate of the project might be higher than the one that does not follow the trend. As a result, using only provided data could lead to inaccurate conclusions.
+
+    Another variability is the creator. In this dataset, it does not contain information about who creates each project. However, the backers are able to see creators and follow them on Kickstarter. If a creator is a well-known person or team, the backer might be more interested in that project more than others which could create more chances of success. Therefore, the creator could be a significant factor to make to the project either success or failed.
+
+    In conclusion, only the provided dataset might be inadequate to make a conclusion on how the Kickstarter’s projects will be successful or failed. There will be other variabilities that might be a significant factor resulting in the chance of success.
+
+- - -
+
+## Reference
+
+*About Us*.(2020).Kickstarter. Retrived September 9, 2020, from https://www.kickstarter.com/about?ref=global-footer
