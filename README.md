@@ -8,7 +8,7 @@ Kickstarter, founded in April 2009, is a platform that gives an opportunity for 
 
 Here is the link to download an analytical table and a data analysis file for the Kickstarter. 
 
-**Click here to download**  [Data analysis Document](https://github.com/abpuccini/Kickstarter-Analysis/raw/master/Kickstarter-Analysis.docx)    [Analytical Spread Sheet](https://github.com/abpuccini/Kickstarter-Analysis/raw/master/KickstarterTableAnalysis.xlsx)
+**Click here to download** >> [Data analysis Document](https://github.com/abpuccini/Kickstarter-Analysis/raw/master/Kickstarter-Analysis.docx) / [Analytical Spread Sheet](https://github.com/abpuccini/Kickstarter-Analysis/raw/master/KickstarterTableAnalysis.xlsx)
 
 ![KickstarterTableAnalysis](Images/KickstarterTableAnalysis.png)
 
