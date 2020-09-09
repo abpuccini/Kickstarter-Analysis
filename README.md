@@ -10,7 +10,7 @@ Here is the data sheets and figures to conduct the Kickstarter analysis. [Click 
 
 ![KickstarterTableAnalysis](Images/KickstarterTableAnalysis.png)
 
-## Conclusions
+## Conclusion
 
 The conclusions will be conducted based on the Kickstarter campaign data collected from 2009 to 2017.
 
@@ -91,17 +91,17 @@ Regarding Table I and Graph I, the data indicates that there is a relationship b
 
 **Assumption I** Does mean or median give meaningful analysis?
 
-    Regarding Table II, variance and standard deviation of each state is large which means the data in the dataset is far from mean and median. Also, it means that the data set has a high number of outliers. Therefore, mean and median for this dataset might not be an efficient indicator for analysis. However, the dataset could be used for an analysis if the outlier data is excluded from the dataset.
+Regarding Table II, variance and standard deviation of each state is large which means the data in the dataset is far from mean and median. Also, it means that the data set has a high number of outliers. Therefore, mean and median for this dataset might not be an efficient indicator for analysis. However, the dataset could be used for an analysis if the outlier data is excluded from the dataset.
 
 **Assumption II** Is there any variability that relates to a chance of success or failure?
 
-    Even though there are similar projects in terms of their launch time, goal, parent-category and sub-category, one project was successful, another one was not. There are other variabilities that could affect the outcome of the project. 
+Even though there are similar projects in terms of their launch time, goal, parent-category and sub-category, one project was successful, another one was not. There are other variabilities that could affect the outcome of the project. 
 
-    One of the variabilities could be the content or product of the project which relates to what people are interested in at that period of time. Therefore, the number of backers and how much they pledge depend on their interests at the time. Also, the backers have no limitation of which country they can pledge. In the other words, the backers can pledge domestically or internationally. If a project fits with the global trend, the successful rate of the project might be higher than the one that does not follow the trend. As a result, using only provided data could lead to inaccurate conclusions.
+One of the variabilities could be the content or product of the project which relates to what people are interested in at that period of time. Therefore, the number of backers and how much they pledge depend on their interests at the time. Also, the backers have no limitation of which country they can pledge. In the other words, the backers can pledge domestically or internationally. If a project fits with the global trend, the successful rate of the project might be higher than the one that does not follow the trend. As a result, using only provided data could lead to inaccurate conclusions.
 
-    Another variability is the creator. In this dataset, it does not contain information about who creates each project. However, the backers are able to see creators and follow them on Kickstarter. If a creator is a well-known person or team, the backer might be more interested in that project more than others which could create more chances of success. Therefore, the creator could be a significant factor to make to the project either success or failed.
+Another variability is the creator. In this dataset, it does not contain information about who creates each project. However, the backers are able to see creators and follow them on Kickstarter. If a creator is a well-known person or team, the backer might be more interested in that project more than others which could create more chances of success. Therefore, the creator could be a significant factor to make to the project either success or failed.
 
-    In conclusion, only the provided dataset might be inadequate to make a conclusion on how the Kickstarter’s projects will be successful or failed. There will be other variabilities that might be a significant factor resulting in the chance of success.
+In conclusion, only the provided dataset might be inadequate to make a conclusion on how the Kickstarter’s projects will be successful or failed. There will be other variabilities that might be a significant factor resulting in the chance of success.
 
 - - -
 
