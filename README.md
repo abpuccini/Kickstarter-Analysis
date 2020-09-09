@@ -67,4 +67,20 @@ This table and graph will conduct which campaign (sub-category) will draw more b
 
 - - - 
 
+## Additional Analysis
+
+**Table I: Outcome based on Goal**
+
+![OutcomebasedonGoalTable](TableI-Outcome.png)
+
+**Graph I: Outcome based on Goal**
+
+![OutcomebasedonGoalGraph](GraphI-Outcome.png)
+
+**Graph II: Outcome based on Average Donation**
+
+![OutcomebasedAVGdonation](AVG-donation.png)
+
+Regarding Table I and Graph I, the data indicates that there is a relationship between the goal and chance of success or failed. If the goal amount is low, it is likely that the project will reach the goal and succeed. On the other hand, if the goal amount is high, the chance of success will decline and the chance of failure will increase. Also, the average donation per backer is related to a chance of success as well. Regarding Graph II, it implies that the lower amount of pledge for each backer, the higher chance of success will be. These emphasize that the project’s goal amount is a significant variability to reach the positive outcome on Kickstarter.
+
 ## Statistical Analysis
